@@ -41,12 +41,12 @@ const Portfolio = () => {
               <a href="#" onClick={() => activeShowProject(1)}>
                 <img
                   className="responsive-img"
-                  src="images/projects/project-1.jpg"
+                  src="images/projects/Screenshot 2024-06-27 at 3.55.25 PM.png"
                   alt="Project"
                 />
                 <div className="valign-wrapper">
                   <span className="font-weight-700 uppercase">
-                    Image Project
+                    Google Ads & Meta Ads
                   </span>
                 </div>
               </a>
@@ -57,12 +57,12 @@ const Portfolio = () => {
               <a href="#" onClick={() => activeShowProject(2)}>
                 <img
                   className="responsive-img"
-                  src="images/projects/project-2.jpg"
+                  src="images/projects/bunnysflower.png"
                   alt="Project"
                 />
                 <div className="valign-wrapper">
                   <span className="font-weight-700 uppercase">
-                    Slider Project
+                    Google Search Ads
                   </span>
                 </div>
               </a>
@@ -73,12 +73,12 @@ const Portfolio = () => {
               <a href="#" onClick={() => activeShowProject(3)}>
                 <img
                   className="responsive-img"
-                  src="images/projects/project-3.jpg"
+                  src="images/projects/tiffany3 (1).png"
                   alt="Project"
                 />
                 <div className="valign-wrapper">
                   <span className="font-weight-700 uppercase">
-                    Youtube Video
+                    Media Planning
                   </span>
                 </div>
               </a>
@@ -89,11 +89,11 @@ const Portfolio = () => {
               <a href="#" onClick={() => activeShowProject(4)}>
                 <img
                   className="responsive-img"
-                  src="images/projects/project-4.jpg"
+                  src="images/projects/shopifytheme.png"
                   alt="Project"
                 />
                 <div className="valign-wrapper">
-                  <span className="font-weight-700 uppercase">Local Video</span>
+                  <span className="font-weight-700 uppercase">Shopify Theme</span>
                 </div>
               </a>
             </div>
@@ -103,12 +103,12 @@ const Portfolio = () => {
               <a href="#" onClick={() => activeShowProject(5)}>
                 <img
                   className="responsive-img"
-                  src="images/projects/project-5.jpg"
+                  src="images/projects/apple.png"
                   alt="Project"
                 />
                 <div className="valign-wrapper">
                   <span className="font-weight-700 uppercase">
-                    Image Project
+                     Newsletter Email  
                   </span>
                 </div>
               </a>
@@ -119,12 +119,12 @@ const Portfolio = () => {
               <a href="#" onClick={() => activeShowProject(6)}>
                 <img
                   className="responsive-img"
-                  src="images/projects/project-6.jpg"
+                  src="images/projects/airline.png"
                   alt="Project"
                 />
                 <div className="valign-wrapper">
                   <span className="font-weight-700 uppercase">
-                    Image Project
+                     Marketing Email
                   </span>
                 </div>
               </a>
@@ -135,12 +135,12 @@ const Portfolio = () => {
               <a href="#" onClick={() => activeShowProject(7)}>
                 <img
                   className="responsive-img"
-                  src="images/projects/project-7.jpg"
+                  src="images/projects/myprotein.png"
                   alt="Project"
                 />
                 <div className="valign-wrapper">
                   <span className="font-weight-700 uppercase">
-                    Image Project
+                     Transaction Email
                   </span>
                 </div>
               </a>
@@ -151,12 +151,12 @@ const Portfolio = () => {
               <a href="#" onClick={() => activeShowProject(8)}>
                 <img
                   className="responsive-img"
-                  src="images/projects/project-8.jpg"
+                  src="images/projects/nba.png"
                   alt="Project"
                 />
                 <div className="valign-wrapper">
                   <span className="font-weight-700 uppercase">
-                    Image Project
+                     Marketing Email
                   </span>
                 </div>
               </a>
@@ -167,17 +167,31 @@ const Portfolio = () => {
               <a href="#" onClick={() => activeShowProject(9)}>
                 <img
                   className="responsive-img"
-                  src="images/projects/project-9.jpg"
+                  src="images/projects/klaviyosuckerz.png"
                   alt="Project"
                 />
                 <div className="valign-wrapper">
                   <span className="font-weight-700 uppercase">
-                    Image Project
+                    Klaviyo Email Flow
                   </span>
                 </div>
               </a>
             </div>
             {/* Project Ends */}
+            <div className="col s12 m6 l6 xl4" data-panel="panel-10">
+              <a href="#" onClick={() => activeShowProject(10)}>
+                <img
+                  className="responsive-img"
+                  src="images/projects/vc-welcome.png"
+                  alt="Project"
+                />
+                <div className="valign-wrapper">
+                  <span className="font-weight-700 uppercase">
+                  Klaviyo Email Flow
+                  </span>
+                </div>
+              </a>
+            </div>
           </div>
         </div>
       </div>

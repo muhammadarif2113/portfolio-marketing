@@ -35,41 +35,42 @@ const ProjectDetails = () => {
           <div className="col s12 l6 xl6 section-padding section-padding-right-none">
             <img
               className="responsive-img"
-              src="images/projects/project-1.jpg"
+              src="images/projects/bluestarparlor.png"
               alt="project"
             />
           </div>
           {/* Project Main Content Ends */}
           {/* Project Details Starts */}
           <div className="col s12 l6 xl6 section-padding">
-            <h3 className="font-weight-700 uppercase">Image Project</h3>
+            <h3 className="font-weight-700 uppercase">Google Search & Meta Ads Camapign</h3>
             <ul className="project-details second-font">
               <li>
                 <i className="fa fa-user" />
                 <span className="font-weight-700"> Client </span>:{" "}
-                <span className="font-weight-400 uppercase">Envato</span>
+                <span className="font-weight-400 uppercase"><a href="https://www.bluestarparlor.com/">Blue Star Parlor</a></span>
               </li>
               <li>
                 <i className="fa fa-calendar-o" />
                 <span className="font-weight-700"> Start Date </span>:{" "}
-                <span className="font-weight-400 uppercase">02/09/2022</span>
+                <span className="font-weight-400 uppercase">05/22/2024</span>
               </li>
               <li>
                 <i className="fa fa-calendar-check-o" />
                 <span className="font-weight-700"> End Date </span>:{" "}
-                <span className="font-weight-400 uppercase">02/08/2023</span>
+                <span className="font-weight-400 uppercase">05/31/2024</span>
               </li>
               <li>
                 <i className="fa fa-cogs" />{" "}
-                <span className="font-weight-700"> Used Technologies</span> :{" "}
-                <span className="font-weight-400 uppercase">
-                  php, html, css, javascript
+                <span className="font-weight-700"> Campaign Objective</span> :{" "}
+                <span className="font-weight-400">
+                  Brand Awareness | KPIs: CPC, CTR
                 </span>
               </li>
             </ul>
             <hr />
             <a
-              href="#"
+              target="_blank"
+              href="https://docs.google.com/presentation/d/19TaG-6q4PLQQuRyfy_2AUXjNABzv54ucAesXBdpc_48/edit?usp=sharing"
               className="waves-effect waves-light btn font-weight-700"
             >
               Preview <i className="fa fa-external-link" />
@@ -87,39 +88,45 @@ const ProjectDetails = () => {
         <div className="row">
           {/* Project Main Content Starts */}
           <div className="col s12 l6 xl6 section-padding section-padding-right-none">
-            <ProjectSlider />
+            {/* <ProjectSlider /> */}
+            <img
+              className="responsive-img"
+              src="images/projects/bunnysflower.png"
+              alt="project"
+            />
           </div>
           {/* Project Main Content Ends */}
           {/* Project Details Starts */}
           <div className="col s12 l6 xl6 section-padding">
-            <h3 className="font-weight-700 uppercase">Slider Project</h3>
+            <h3 className="font-weight-700 uppercase">Google Search Ads</h3>
             <ul className="project-details second-font">
               <li>
                 <i className="fa fa-user" />
                 <span className="font-weight-700"> Client </span>:{" "}
-                <span className="font-weight-400 uppercase">Themeforest</span>
+                <span className="font-weight-400 uppercase"><a href="https://bunnysflowers.org/">Bunny's Flower</a></span>
               </li>
               <li>
                 <i className="fa fa-calendar-o" />
                 <span className="font-weight-700"> Start Date </span>:{" "}
-                <span className="font-weight-400 uppercase">02/09/2022</span>
+                <span className="font-weight-400 uppercase">03/25/2024</span>
               </li>
               <li>
                 <i className="fa fa-calendar-check-o" />
                 <span className="font-weight-700"> End Date </span>:{" "}
-                <span className="font-weight-400 uppercase">02/08/2023</span>
+                <span className="font-weight-400 uppercase">04/22/2024</span>
               </li>
               <li>
                 <i className="fa fa-cogs" />{" "}
-                <span className="font-weight-700"> Used Technologies</span> :{" "}
-                <span className="font-weight-400 uppercase">
-                  php, html, css, javascript
+                <span className="font-weight-700"> Campaign Objective</span> :{" "}
+                <span className="font-weight-400">
+                  Website Traffic | KPIs: Clicks, CPC, CTR 
                 </span>
               </li>
             </ul>
             <hr />
             <a
-              href="#"
+              target="_blank"
+              href="https://drive.google.com/file/d/1JaoAkNaBlajGS1gr-kwMX4ZuIq8vOjkO/view?usp=drive_link"
               className="waves-effect waves-light btn font-weight-700"
             >
               Preview <i className="fa fa-external-link" />
@@ -180,6 +187,7 @@ const ProjectDetails = () => {
             </ul>
             <hr />
             <a
+              target="_blank"
               href="#"
               className="waves-effect waves-light btn font-weight-700"
             >
@@ -198,39 +206,33 @@ const ProjectDetails = () => {
         <div className="row">
           {/* Project Main Content Starts */}
           <div className="col s12 l6 xl6 section-padding section-padding-right-none">
-            <LocalVideo playing={activeProject} />
+          <img
+              className="responsive-img"
+              src="images/projects/shopifytheme.png"
+              alt="project"
+            />
           </div>
           {/* Project Main Content Ends */}
           {/* Project Details Starts */}
           <div className="col s12 l6 xl6 section-padding">
-            <h3 className="font-weight-700 uppercase">Local Video</h3>
+            <h3 className="font-weight-700 uppercase">Custom Shopify Liquid Theme</h3>
             <ul className="project-details second-font">
               <li>
-                <i className="fa fa-user" />
-                <span className="font-weight-700"> Client </span>:{" "}
-                <span className="font-weight-400 uppercase">Videohive</span>
+                <span className="font-weight-400">Shopfiy hompage for BlackDog Fit, a fitness apparel brand. It effectively showcases the brand, products, and unique selling points. This theme features a personalized header, clean product highlights, and big collection banners.</span>
               </li>
-              <li>
-                <i className="fa fa-calendar-o" />
-                <span className="font-weight-700"> Start Date </span>:{" "}
-                <span className="font-weight-400 uppercase">02/09/2022</span>
-              </li>
-              <li>
-                <i className="fa fa-calendar-check-o" />
-                <span className="font-weight-700"> End Date </span>:{" "}
-                <span className="font-weight-400 uppercase">02/08/2023</span>
-              </li>
+             
               <li>
                 <i className="fa fa-cogs" />{" "}
                 <span className="font-weight-700"> Used Technologies</span> :{" "}
                 <span className="font-weight-400 uppercase">
-                  Adobe After Effects, Movie Maker
+                  Liquid code, NextJS, JavaScript, HTML, CSS, Github 
                 </span>
               </li>
             </ul>
             <hr />
             <a
-              href="#"
+              target="_blank"
+              href="https://github.com/muhammadarif2113/securehome2-theme"
               className="waves-effect waves-light btn font-weight-700"
             >
               Preview <i className="fa fa-external-link" />
@@ -248,39 +250,24 @@ const ProjectDetails = () => {
         <div className="row">
           {/* Project Main Content Starts */}
           <div className="col s12 l6 xl6 section-padding section-padding-right-none">
-            <img src="images/projects/project-5.jpg" alt="project" />
+            <img src="images/projects/apple.png" alt="project" />
           </div>
           {/* Project Main Content Ends */}
           {/* Project Details Starts */}
           <div className="col s12 l6 xl6 section-padding">
-            <h3 className="font-weight-700 uppercase">Image Project</h3>
+            <h3 className="font-weight-700 uppercase">Apple Newsletter Email Clone</h3>
             <ul className="project-details second-font">
               <li>
-                <i className="fa fa-user" />
-                <span className="font-weight-700"> Client </span>:{" "}
-                <span className="font-weight-400 uppercase">Graphicriver</span>
+                <span className="font-weight-400">Created a responsive template that easily allows changing stories for Apple's daily newsletter "Apple News", coded with Foundation Framework for emails.</span>
               </li>
               <li>
-                <i className="fa fa-calendar-o" />
-                <span className="font-weight-700"> Start Date </span>:{" "}
-                <span className="font-weight-400 uppercase">02/09/2022</span>
-              </li>
-              <li>
-                <i className="fa fa-calendar-check-o" />
-                <span className="font-weight-700"> End Date </span>:{" "}
-                <span className="font-weight-400 uppercase">02/08/2023</span>
-              </li>
-              <li>
-                <i className="fa fa-cogs" />{" "}
-                <span className="font-weight-700"> Used Technologies</span> :{" "}
-                <span className="font-weight-400 uppercase">
-                  Adobe Photoshop, Gimp
-                </span>
+                <a href="https://github.com/muhammadarif2113/apple-newsletter-email" target="_blank"> <i className="fa fa-github" style={{fontSize: "25px"}} /></a>
               </li>
             </ul>
             <hr />
             <a
-              href="#"
+              href="images/projects/applenewsletterclone.html"
+              target="_blank"
               className="waves-effect waves-light btn font-weight-700"
             >
               Preview <i className="fa fa-external-link" />
@@ -298,39 +285,24 @@ const ProjectDetails = () => {
         <div className="row">
           {/* Project Main Content Starts */}
           <div className="col s12 l6 xl6 section-padding section-padding-right-none">
-            <img src="images/projects/project-6.jpg" alt="project" />
+            <img src="images/projects/airline.png" alt="project" />
           </div>
           {/* Project Main Content Ends */}
           {/* Project Details Starts */}
           <div className="col s12 l6 xl6 section-padding">
-            <h3 className="font-weight-700 uppercase">Image Project</h3>
+            <h3 className="font-weight-700 uppercase">Airline Marketing Email</h3>
             <ul className="project-details second-font">
               <li>
-                <i className="fa fa-user" />
-                <span className="font-weight-700"> Client </span>:{" "}
-                <span className="font-weight-400 uppercase">Activeden</span>
+                <span className="font-weight-400">A promotional email sent from an airline's company advertising a discount on domestic flights. Designed in Photoshop and coded using MJML.</span>
               </li>
               <li>
-                <i className="fa fa-calendar-o" />
-                <span className="font-weight-700"> Start Date </span>:{" "}
-                <span className="font-weight-400 uppercase">02/09/2022</span>
-              </li>
-              <li>
-                <i className="fa fa-calendar-check-o" />
-                <span className="font-weight-700"> End Date </span>:{" "}
-                <span className="font-weight-400 uppercase">02/08/2023</span>
-              </li>
-              <li>
-                <i className="fa fa-cogs" />{" "}
-                <span className="font-weight-700"> Used Technologies</span> :{" "}
-                <span className="font-weight-400 uppercase">
-                  Adobe Flash, Paint
-                </span>
+                <a href="https://github.com/muhammadarif2113/airline-promo-email" target="_blank"> <i className="fa fa-github" style={{fontSize: "25px"}} /></a>
               </li>
             </ul>
             <hr />
             <a
-              href="#"
+              target="_blank"
+              href="https://muhammadarif2113.github.io/airline-promo-email/"
               className="waves-effect waves-light btn font-weight-700"
             >
               Preview <i className="fa fa-external-link" />
@@ -348,39 +320,26 @@ const ProjectDetails = () => {
         <div className="row">
           {/* Project Main Content Starts */}
           <div className="col s12 l6 xl6 section-padding section-padding-right-none">
-            <img src="images/projects/project-7.jpg" alt="project" />
+            <img src="images/projects/myprotein.png" alt="project" />
           </div>
           {/* Project Main Content Ends */}
           {/* Project Details Starts */}
           <div className="col s12 l6 xl6 section-padding">
-            <h3 className="font-weight-700 uppercase">Image Project</h3>
+            <h3 className="font-weight-700 uppercase">MyProtein Transaction Email Clone</h3>
             <ul className="project-details second-font">
               <li>
                 <i className="fa fa-user" />
-                <span className="font-weight-700"> Client </span>:{" "}
-                <span className="font-weight-400 uppercase">3D Ocean</span>
+                <span className="font-weight-400">A clone of a transactional email sent by MyProtein, coded with the email framework MJML.</span>
               </li>
+              
               <li>
-                <i className="fa fa-calendar-o" />
-                <span className="font-weight-700"> Start Date </span>:{" "}
-                <span className="font-weight-400 uppercase">02/09/2022</span>
-              </li>
-              <li>
-                <i className="fa fa-calendar-check-o" />
-                <span className="font-weight-700"> End Date </span>:{" "}
-                <span className="font-weight-400 uppercase">02/08/2023</span>
-              </li>
-              <li>
-                <i className="fa fa-cogs" />{" "}
-                <span className="font-weight-700"> Used Technologies</span> :{" "}
-                <span className="font-weight-400 uppercase">
-                  3DS Max, Adobe Photoshop
-                </span>
+              <a href="https://github.com/muhammadarif2113/transactional-email" target="_blank"> <i className="fa fa-github" style={{fontSize: "25px"}} /></a>
               </li>
             </ul>
             <hr />
             <a
-              href="#"
+              target="_blank"
+              href="https://muhammadarif2113.github.io/transactional-email"
               className="waves-effect waves-light btn font-weight-700"
             >
               Preview <i className="fa fa-external-link" />
@@ -398,39 +357,24 @@ const ProjectDetails = () => {
         <div className="row">
           {/* Project Main Content Starts */}
           <div className="col s12 l6 xl6 section-padding section-padding-right-none">
-            <img src="images/projects/project-8.jpg" alt="project" />
+            <img src="images/projects/nba.png" alt="project" />
           </div>
           {/* Project Main Content Ends */}
           {/* Project Details Starts */}
           <div className="col s12 l6 xl6 section-padding">
-            <h3 className="font-weight-700 uppercase">Image Project</h3>
+            <h3 className="font-weight-700 uppercase">NBA Store Promotional Email Clone</h3>
             <ul className="project-details second-font">
               <li>
-                <i className="fa fa-user" />
-                <span className="font-weight-700"> Client </span>:{" "}
-                <span className="font-weight-400 uppercase">Audiojungle</span>
+                <span className="font-weight-400">A promotional email clone sent from NBAStore. Coded with MJML. </span>
               </li>
               <li>
-                <i className="fa fa-calendar-o" />
-                <span className="font-weight-700"> Start Date </span>:{" "}
-                <span className="font-weight-400 uppercase">02/09/2022</span>
-              </li>
-              <li>
-                <i className="fa fa-calendar-check-o" />
-                <span className="font-weight-700"> End Date </span>:{" "}
-                <span className="font-weight-400 uppercase">02/08/2023</span>
-              </li>
-              <li>
-                <i className="fa fa-cogs" />{" "}
-                <span className="font-weight-700"> Used Technologies</span> :{" "}
-                <span className="font-weight-400 uppercase">
-                  Adobe Audition, Adobe Premiere
-                </span>
+              <a href="https://github.com/muhammadarif2113/nbastore-promo-email" target="_blank"> <i className="fa fa-github" style={{fontSize: "25px"}} /></a>
               </li>
             </ul>
             <hr />
             <a
-              href="#"
+              target="_blank"
+              href="https://muhammadarif2113.github.io/nbastore-promo-email"
               className="waves-effect waves-light btn font-weight-700"
             >
               Preview <i className="fa fa-external-link" />
@@ -448,39 +392,24 @@ const ProjectDetails = () => {
         <div className="row">
           {/* Project Main Content Starts */}
           <div className="col s12 l6 xl6 section-padding section-padding-right-none">
-            <img src="images/projects/project-9.jpg" alt="project" />
+            <img src="images/projects/suckerz-welcome-html.png" alt="project" />
           </div>
           {/* Project Main Content Ends */}
           {/* Project Details Starts */}
           <div className="col s12 l6 xl6 section-padding">
-            <h3 className="font-weight-700 uppercase">Image Project</h3>
+            <h3 className="font-weight-700 uppercase">Suckerz Klaviyo Welcome Email Flow</h3>
             <ul className="project-details second-font">
               <li>
-                <i className="fa fa-user" />
-                <span className="font-weight-700"> Client </span>:{" "}
-                <span className="font-weight-400 uppercase">Audiojungle</span>
-              </li>
-              <li>
-                <i className="fa fa-calendar-o" />
-                <span className="font-weight-700"> Start Date </span>:{" "}
-                <span className="font-weight-400 uppercase">02/09/2022</span>
-              </li>
-              <li>
-                <i className="fa fa-calendar-check-o" />
-                <span className="font-weight-700"> End Date </span>:{" "}
-                <span className="font-weight-400 uppercase">02/08/2023</span>
-              </li>
-              <li>
-                <i className="fa fa-cogs" />{" "}
-                <span className="font-weight-700"> Used Technologies</span> :{" "}
-                <span className="font-weight-400 uppercase">
-                  Adobe Audition, Adobe Premiere
-                </span>
+                <span className="font-weight-400">This is a Welcome Series and Lead Nurturing Flow for the CPG brand Suckerz.
+                                This flow is triggered when a subscriber signs up for promotional emails.
+                                The first email sent is an offer for signing up followed by lead-nurturing emails that aim 
+                                to build customer interest for their low-sugar sweets.</span>
               </li>
             </ul>
             <hr />
             <a
-              href="#"
+              target="_blank"
+              href="images/projects/suckerz-welcome.html"
               className="waves-effect waves-light btn font-weight-700"
             >
               Preview <i className="fa fa-external-link" />
@@ -491,6 +420,51 @@ const ProjectDetails = () => {
       </div>
       {/* Project Ends */}
       {/* Portfolio Navigation Starts */}
+
+
+<div
+        data-panel="panel-10"
+        className={activeProject == 10 ? "bl-show-work" : ""}
+      >
+        <div className="row">
+          {/* Project Main Content Starts */}
+          <div className="col s12 l6 xl6 section-padding section-padding-right-none">
+            <img src="images/projects/vc-welcome.png" alt="project" />
+          </div>
+          {/* Project Main Content Ends */}
+          {/* Project Details Starts */}
+          <div className="col s12 l6 xl6 section-padding">
+            <h3 className="font-weight-700 uppercase">Vegancuts Klaviyo Welcome Email Flow</h3>
+            <ul className="project-details second-font">
+              <li>
+                <span className="font-weight-400">This is a Welcome Series flow for a subscription box company, Vegancutz.
+                                This flow is triggered when a subscriber signs up for promotional emails.
+                                The first email sent is an offer for signing up followed by lead-nurturing emails that aim 
+                                to build customer interest for their vegan and cruelty-free snacks and beauty products.</span>
+              </li>
+            </ul>
+            <hr />
+            <a
+              target="_blank"
+              href="images/projects/vegancuts-welcome.html"
+              className="waves-effect waves-light btn font-weight-700"
+            >
+              Preview <i className="fa fa-external-link" />
+            </a>
+          </div>
+          {/* Project Details Ends */}
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+
+
       <nav>
         {/* Previous Work Icon Starts */}
         <span

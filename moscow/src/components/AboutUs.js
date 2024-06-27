@@ -16,45 +16,45 @@ const Experience = () => (
       <div className="resume-card-body-container second-font">
         {/* Single Experience Starts */}
         <div className="resume-content">
-          <h6 className="uppercase">
-            <span>Web Designer - </span>Envato
+          <h6>
+            <span className="uppercase">Advertiser - </span><a href="https://www.instagram.com/bluestarparlor/" target="_blank"> Blue Star Parlor</a>
           </h6>
           <span className="date">
-            <i className="fa fa-calendar-o" /> 2015 - 2023
+            <i className="fa fa-calendar-o" /> April 2024 - June 2024
           </span>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-            pretium orci sit amet mi ullamcorper
+            <p style={{fontStyle: "italic", paddingBottom: "0"}}>Brand Awareness Campaign (Meta Ads, Google Search Ads)</p>
+            Created Google Search and Meta Ads tailored to the restaurant’s target audience and marketing goals
           </p>
         </div>
         {/* Single Experience Ends */}
         <span className="separator" />
         {/* Single Experience Starts */}
         <div className="resume-content">
-          <h6 className="uppercase">
-            <span>Web Developer - </span>Google
+          <h6>
+            <span className="uppercase">Advertiser - </span> <a href="https://bunnysflowers.org/" target="_blank">Bunny's Flower</a>
           </h6>
           <span className="date">
-            <i className="fa fa-calendar-o" /> 2011 - 2015
+            <i className="fa fa-calendar-o" /> March 2024 - May 2024
           </span>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-            pretium orci sit amet mi ullamcorper
+            <p style={{fontStyle: "italic", paddingBottom: "0"}}>Site Traffic & Brand Awareness Campaign (Google Search Ads)</p>
+            Executed a targeted search campaign with goals to enhance brand awareness and site traffic for non-profit
           </p>
         </div>
         {/* Single Experience Ends */}
         <span className="separator" />
         {/* Single Experience Starts */}
         <div className="resume-content">
-          <h6 className="uppercase">
-            <span>Community Manager - </span>Adobe
+          <h6>
+            <span className="uppercase">E-Commerce Logistics Manager - </span><a href="https://www.pietrastudio.com/" target="_blank">Pietra</a>
           </h6>
           <span className="date">
-            <i className="fa fa-calendar-o" /> 2007 - 2011
+            <i className="fa fa-calendar-o" /> March 2022 - May 2023
           </span>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-            pretium orci sit amet mi ullamcorper
+            Oversaw movement of goods from suppliers to customers, managed inventory, warehousing, transportation, and delivery operations. 
+            <p style={{paddingBottom: "0"}}>Ensured seamless order fulfillment and optimized logistics processes to enhance client satisfaction and reduced company costs.</p>
           </p>
         </div>
         {/* Single Experience Ends */}
@@ -75,14 +75,14 @@ const Education = () => (
         {/* Single Education Starts */}
         <div className="resume-content">
           <h6 className="uppercase">
-            <span>Engineering Diploma - </span>Oxford University
+            <span>COOP Fellowship - </span>Digital Marketing
           </h6>
           <span className="date">
-            <i className="fa fa-calendar-o" /> 2015 - 2023
+            <i className="fa fa-calendar-o" /> February 2024 - June 2024
           </span>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-            pretium orci sit amet mi ullamcorper
+            Focused on developing technical expertise in SEM Ads, Paid Social, and
+            Programmatic ads, as well as cultivating soft skills in communication, conflict resolution, and relationship building.
           </p>
         </div>
         {/* Single Education Ends */}
@@ -90,14 +90,13 @@ const Education = () => (
         {/* Single Education Starts */}
         <div className="resume-content">
           <h6 className="uppercase">
-            <span>Masters Degree - </span>Paris University
+            <span>Kepler Academy - </span>Paid Search Extern
           </h6>
           <span className="date">
-            <i className="fa fa-calendar-o" /> 2011 - 2015
+            <i className="fa fa-calendar-o" /> March 2024 - May 2024
           </span>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-            pretium orci sit amet mi ullamcorper
+          Acquired advanced skills in Google Ads and gained hands-on experience in campaign creation, targeting, optimization, and analysis by fine-tuning ad settings, bids, and keywords.
           </p>
         </div>
         {/* Single Education Ends */}
@@ -105,14 +104,35 @@ const Education = () => (
         {/* Single Education Starts */}
         <div className="resume-content">
           <h6 className="uppercase">
-            <span>Bachelor Degree - </span>Berlin Higher Institute
+            <span>Computer Information Systems, B.S. - </span>Brooklyn College
           </h6>
           <span className="date">
-            <i className="fa fa-calendar-o" /> 2007 - 2011
+            <i className="fa fa-calendar-o" /> June 2021
           </span>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-            pretium orci sit amet mi ullamcorper
+          <ul>
+            <li>
+                Multimedia Programming (HTML, CSS, JavaScript)
+              </li>
+              <li>
+              Design & Implementation Web Apps (Photoshop/Figma)
+              </li>
+              <li>
+              Computer Applications (Word, Excel, PowerPoint)
+              </li>
+              <li>
+                Data Structures (Java)
+              </li>
+              <li>
+                Object-Oriented Java
+              </li>
+              <li>
+                Database Systems (SQL)
+              </li>
+              <li>
+                Artificial Intelligence (Python)
+              </li>
+            </ul>
           </p>
         </div>
         {/* Single Education Ends */}
@@ -136,7 +156,7 @@ const Skills = () => (
           <div className="col s6">
             {/* Single Skills Starts */}
             <div className="resume-content">
-              <h6 className="uppercase">html</h6>
+              <h6 className="uppercase">Search Ads - Google/Bing</h6>
               <p>
                 <i className="fa fa-star" /> <i className="fa fa-star" />{" "}
                 <i className="fa fa-star" /> <i className="fa fa-star" />{" "}
@@ -146,37 +166,7 @@ const Skills = () => (
             {/* Single Skills Ends */}
             {/* Single Skills Starts */}
             <div className="resume-content">
-              <h6 className="uppercase">javascript</h6>
-              <p>
-                <i className="fa fa-star" /> <i className="fa fa-star" />{" "}
-                <i className="fa fa-star" /> <i className="fa fa-star" />{" "}
-                <i className="fa fa-star-half-empty" />
-              </p>
-            </div>
-            {/* Single Skills Ends */}
-            {/* Single Skills Starts */}
-            <div className="resume-content">
-              <h6 className="uppercase">css</h6>
-              <p>
-                <i className="fa fa-star" /> <i className="fa fa-star" />{" "}
-                <i className="fa fa-star" /> <i className="fa fa-star" />{" "}
-                <i className="fa fa-star-half-empty" />
-              </p>
-            </div>
-            {/* Single Skills Ends */}
-            {/* Single Skills Starts */}
-            <div className="resume-content">
-              <h6 className="uppercase">php</h6>
-              <p>
-                <i className="fa fa-star" /> <i className="fa fa-star" />{" "}
-                <i className="fa fa-star" /> <i className="fa fa-star-o" />{" "}
-                <i className="fa fa-star-o" />
-              </p>
-            </div>
-            {/* Single Skills Ends */}
-            {/* Single Skills Starts */}
-            <div className="resume-content">
-              <h6 className="uppercase">jquery</h6>
+              <h6 className="uppercase">Meta Ads</h6>
               <p>
                 <i className="fa fa-star" /> <i className="fa fa-star" />{" "}
                 <i className="fa fa-star" /> <i className="fa fa-star" />{" "}
@@ -186,11 +176,49 @@ const Skills = () => (
             {/* Single Skills Ends */}
             {/* Single Skills Starts */}
             <div className="resume-content">
-              <h6 className="uppercase">angular js</h6>
+              <h6 className="uppercase">Email Marketing - Klaviyo/MailChimp</h6>
               <p>
                 <i className="fa fa-star" /> <i className="fa fa-star" />{" "}
-                <i className="fa fa-star" /> <i className="fa fa-star-o" />{" "}
-                <i className="fa fa-star-o" />
+                <i className="fa fa-star" /> <i className="fa fa-star" />{" "}
+                <i className="fa fa-star" />
+              </p>
+            </div>
+            {/* Single Skills Ends */}
+            {/* Single Skills Starts */}
+            <div className="resume-content">
+              <h6 className="uppercase">CMS - Shopify/Wordpress/HubSpot</h6>
+              <p>
+                <i className="fa fa-star" /> <i className="fa fa-star" />{" "}
+                <i className="fa fa-star" /> <i className="fa fa-star" />{" "}
+                <i className="fa fa-star" />
+              </p>
+            </div>
+            <div className="resume-content">
+              <h6 className="uppercase">Salesforce Marketing Cloud</h6>
+              <p>
+                <i className="fa fa-star" /> <i className="fa fa-star" />{" "}
+                <i className="fa fa-star" /> <i className="fa fa-star" />{" "}
+                <i className="fa fa-star-empty" />
+              </p>
+            </div>
+            {/* Single Skills Ends */}
+            {/* Single Skills Starts */}
+            <div className="resume-content">
+              <h6 className="uppercase">PhotoShop/Canva</h6>
+              <p>
+                <i className="fa fa-star" /> <i className="fa fa-star" />{" "}
+                <i className="fa fa-star" /> <i className="fa fa-star" />{" "}
+                <i className="fa fa-star" />
+              </p>
+            </div>
+            {/* Single Skills Ends */}
+            {/* Single Skills Starts */}
+            <div className="resume-content">
+              <h6 className="uppercase">Google Suite/Analytics</h6>
+              <p>
+                <i className="fa fa-star" /> <i className="fa fa-star" />{" "}
+                <i className="fa fa-star" /> <i className="fa fa-star" />{" "}
+                <i className="fa fa-star" />
               </p>
             </div>
             {/* Single Skills Ends */}
@@ -200,38 +228,7 @@ const Skills = () => (
           <div className="col s6">
             {/* Single Skills Starts */}
             <div className="resume-content">
-              <h6 className="uppercase">wordpress</h6>
-              <p>
-                <i className="fa fa-star" /> <i className="fa fa-star" />{" "}
-                <i className="fa fa-star" /> <i className="fa fa-star" />{" "}
-                <i className="fa fa-star-half-empty" />
-              </p>
-            </div>
-            {/* Single Skills Ends */}
-            {/* Single Skills Starts */}
-            <div className="resume-content">
-              <h6 className="uppercase">joomla</h6>
-              <p>
-                <i className="fa fa-star" /> <i className="fa fa-star" />{" "}
-                <i className="fa fa-star" />{" "}
-                <i className="fa fa-star-half-empty" />{" "}
-                <i className="fa fa-star-o" />
-              </p>
-            </div>
-            {/* Single Skills Ends */}
-            {/* Single Skills Starts */}
-            <div className="resume-content">
-              <h6 className="uppercase">magento</h6>
-              <p>
-                <i className="fa fa-star" /> <i className="fa fa-star" />{" "}
-                <i className="fa fa-star" /> <i className="fa fa-star" />{" "}
-                <i className="fa fa-star-o" />
-              </p>
-            </div>
-            {/* Single Skills Ends */}
-            {/* Single Skills Starts */}
-            <div className="resume-content">
-              <h6 className="uppercase">drupal</h6>
+              <h6 className="uppercase">Excel/Word/Powerpoint</h6>
               <p>
                 <i className="fa fa-star" /> <i className="fa fa-star" />{" "}
                 <i className="fa fa-star" /> <i className="fa fa-star" />{" "}
@@ -241,24 +238,15 @@ const Skills = () => (
             {/* Single Skills Ends */}
             {/* Single Skills Starts */}
             <div className="resume-content">
-              <h6 className="uppercase">Adobe Photoshop</h6>
-              <p>
-                <i className="fa fa-star" /> <i className="fa fa-star" />{" "}
-                <i className="fa fa-star" /> <i className="fa fa-star" />{" "}
-                <i className="fa fa-star-o" />
-              </p>
-            </div>
-            {/* Single Skills Ends */}
-            {/* Single Skills Starts */}
-            <div className="resume-content">
-              <h6 className="uppercase">Adobe illustrator</h6>
+              <h6 className="uppercase">HTML/CSS/JS</h6>
               <p>
                 <i className="fa fa-star" /> <i className="fa fa-star" />{" "}
                 <i className="fa fa-star" />{" "}
-                <i className="fa fa-star-half-empty" />{" "}
-                <i className="fa fa-star-o" />
+                <i className="fa fa-star" />                
+                <i className="fa fa-star" />              
               </p>
             </div>
+
             {/* Single Skills Ends */}
           </div>
           {/* Skills Row Ends */}
@@ -310,70 +298,49 @@ const AboutUs = ({ dark }) => {
               <h6 className="uppercase">
                 <i className="fa fa-user" /> Personal Info
               </h6>
-              <div className="col m12 l12 xl9 p-none">
+              <div className="col m12 l12 xl9 p-none" style={{width: "85%"}}>
                 <p className="second-font">
-                  {`I'm`} a Freelance Web Designer &amp; Developer based in
-                  Moscow, Russia, I have serious passion for UI effects,
-                  animations and creating intuitive, with over a decade of
-                  experience.
+                  {`I'm`} a Digital Marketing Specialist with a passion for advertising &amp; driving business' success.
+                  My experience equipped me with a rich and diverse skill set. I bring to the table a range of transferable skills, including adept problem-solving abilities, strong project management expertise, and a keen client-focused approach. 
+                  I am eager to harness these skills and experiences in my next endeavor, contributing to its success and growth.
                 </p>
               </div>
               <div className="col s12 m12 l6 p-none">
                 <ul className="second-font list-1">
                   <li>
-                    <span className="font-weight-700">First Name: </span>
-                    Mark
+                    <span className="font-weight-700">Name: </span>
+                    Saim Arif
                   </li>
                   <li>
-                    <span className="font-weight-700">Last Name: </span>
-                    Smith
-                  </li>
-                  <li>
-                    <span className="font-weight-700">Date of birth: </span>
-                    21 june 1990{" "}
-                  </li>
-                  <li>
-                    <span className="font-weight-700">Nationality: </span>
-                    Russian
-                  </li>
-                  <li>
-                    <span className="font-weight-700">Freelance: </span>
-                    Available
-                  </li>
-                </ul>
-              </div>
-              <div className="col s12 m12 l6 p-none">
-                <ul className="second-font list-2">
-                  <li>
-                    <span className="font-weight-700">Phone: </span>+34 21 18 40
-                    10
-                  </li>
-                  <li>
-                    <span className="font-weight-700">Address: </span>
-                    Moscow, Russia
+                    <span className="font-weight-700">Location: </span>
+                    New York, New York
                   </li>
                   <li>
                     <span className="font-weight-700">Email: </span>
-                    you@yourwebsite.com
-                  </li>
-                  <li>
-                    <span className="font-weight-700">Spoken Langages: </span>
-                    French - German
-                  </li>
-                  <li>
-                    <span className="font-weight-700">Skype: </span>
-                    mark.smith
+                    saim@saimarif.com
                   </li>
                 </ul>
               </div>
-              <a href="#" className="btn font-weight-700">
+              {/* <div className="col s12 m12 l6 p-none">
+                <ul className="second-font list-2">
+                  <li>
+                    <span className="font-weight-700">Location: </span>
+                    New York, New York
+                  </li>
+                  <li>
+                    <span className="font-weight-700">Email: </span>
+                    saim@saimarif.com
+                  </li>
+                </ul>
+              </div> */}
+              {/* <a href="#" className="btn font-weight-700">
                 Download Resume <i className="fa fa-file-pdf-o" />
               </a>
               <Link href={`/blog-${dark ? "dark" : "light"}`}>
                 <a className="btn btn-blog font-weight-700">
                   My Blog <i className="fa fa-edit" />
                 </a>
-              </Link>
+              </Link> */}
             </div>
           </div>
           {/* Personal Informations Ends */}
@@ -508,36 +475,17 @@ const AboutUs = ({ dark }) => {
         </div>
         {/* Resume Ends */}
         {/* Fun Facts Starts */}
-        <div className="container badges">
-          <div className="row">
-            {/* Fact Badge Item Starts */}
-            <div className="col s12 m4 l4 center-align">
-              <h3>
-                <i className="fa fa-briefcase" />
-                <span className="font-weight-900">4+</span>
-              </h3>
-              <h6 className="uppercase font-weight-700">Years Experience</h6>
-            </div>
-            {/* Fact Badge Item Ends */}
-            {/* Fact Badge Item Starts */}
-            <div className="col s12 m4 l4 center-align">
-              <h3>
-                <i className="fa fa-handshake-o" />
-                <span className="font-weight-900">89+</span>
-              </h3>
-              <h6 className="uppercase font-weight-700">Done Projects</h6>
-            </div>
-            {/* Fact Badge Item Ends */}
-            {/* Fact Badge Item Starts */}
-            <div className="col s12 m4 l4 center-align">
-              <h3>
-                <i className="fa fa-heart-o" />
-                <span className="font-weight-900">77+</span>
-              </h3>
-              <h6 className="uppercase font-weight-700">Happy customers</h6>
-            </div>
-            {/* Fact Badge Item Ends */}
-          </div>
+        <div className="container badges" style={{padding: "34px 50px"}}>
+          <span style={{fontSize: "25px"}}>"</span>
+          <span style={{fontStyle: "italic", color: "#000000"}}>
+            Saim's attention to detail and creative approach stood out. 
+            His ability to understand our brand and tailor content 
+            to resonate with our target audience was impressive. The engaging 
+            and well-crafted creatives captured our message and also improved 
+            cost-per-click and click-through rates.
+          </span>
+          <span style={{fontSize: "25px"}}>"</span>  
+          <span style={{color: "#DAA520", fontSize: "16px", fontStyle: "normal"}}>- Blue Star Parlor</span>
         </div>
         {/* Fun Facts Ends */}
       </div>
