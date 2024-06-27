@@ -17,7 +17,7 @@ const Experience = () => (
         {/* Single Experience Starts */}
         <div className="resume-content">
           <h6>
-            <span className="uppercase">Advertiser - </span><a href="https://www.instagram.com/bluestarparlor/" target="_blank"> Blue Star Parlor</a>
+            <span className="uppercase">Advertiser - </span><a href="https://www.instagram.com/bluestarparlor/" target="_blank" rel="noopener noreferrer"> Blue Star Parlor</a>
           </h6>
           <span className="date">
             <i className="fa fa-calendar-o" /> April 2024 - June 2024
@@ -32,7 +32,7 @@ const Experience = () => (
         {/* Single Experience Starts */}
         <div className="resume-content">
           <h6>
-            <span className="uppercase">Advertiser - </span> <a href="https://bunnysflowers.org/" target="_blank">Bunny's Flower</a>
+            <span className="uppercase">Advertiser - </span> <a href="https://bunnysflowers.org/" target="_blank" rel="noopener noreferrer">Bunny's Flower</a>
           </h6>
           <span className="date">
             <i className="fa fa-calendar-o" /> March 2024 - May 2024
@@ -47,7 +47,7 @@ const Experience = () => (
         {/* Single Experience Starts */}
         <div className="resume-content">
           <h6>
-            <span className="uppercase">E-Commerce Logistics Manager - </span><a href="https://www.pietrastudio.com/" target="_blank">Pietra</a>
+            <span className="uppercase">E-Commerce Logistics Manager - </span><a href="https://www.pietrastudio.com/" target="_blank" rel="noopener noreferrer">Pietra</a>
           </h6>
           <span className="date">
             <i className="fa fa-calendar-o" /> March 2022 - May 2023

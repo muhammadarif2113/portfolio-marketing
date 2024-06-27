@@ -70,6 +70,7 @@ const ProjectDetails = () => {
             <hr />
             <a
               target="_blank"
+              rel="noopener noreferrer"
               href="https://docs.google.com/presentation/d/19TaG-6q4PLQQuRyfy_2AUXjNABzv54ucAesXBdpc_48/edit?usp=sharing"
               className="waves-effect waves-light btn font-weight-700"
             >
@@ -126,6 +127,7 @@ const ProjectDetails = () => {
             <hr />
             <a
               target="_blank"
+              rel="noopener noreferrer"
               href="https://drive.google.com/file/d/1JaoAkNaBlajGS1gr-kwMX4ZuIq8vOjkO/view?usp=drive_link"
               className="waves-effect waves-light btn font-weight-700"
             >
@@ -188,6 +190,7 @@ const ProjectDetails = () => {
             <hr />
             <a
               target="_blank"
+              rel="noopener noreferrer"
               href="#"
               className="waves-effect waves-light btn font-weight-700"
             >
@@ -232,6 +235,7 @@ const ProjectDetails = () => {
             <hr />
             <a
               target="_blank"
+              rel="noopener noreferrer"
               href="https://github.com/muhammadarif2113/securehome2-theme"
               className="waves-effect waves-light btn font-weight-700"
             >
@@ -261,13 +265,14 @@ const ProjectDetails = () => {
                 <span className="font-weight-400">Created a responsive template that easily allows changing stories for Apple's daily newsletter "Apple News", coded with Foundation Framework for emails.</span>
               </li>
               <li>
-                <a href="https://github.com/muhammadarif2113/apple-newsletter-email" target="_blank"> <i className="fa fa-github" style={{fontSize: "25px"}} /></a>
+                <a href="https://github.com/muhammadarif2113/apple-newsletter-email" target="_blank" rel="noopener noreferrer"> <i className="fa fa-github" style={{fontSize: "25px"}} /></a>
               </li>
             </ul>
             <hr />
             <a
               href="images/projects/applenewsletterclone.html"
               target="_blank"
+              rel="noopener noreferrer"
               className="waves-effect waves-light btn font-weight-700"
             >
               Preview <i className="fa fa-external-link" />
@@ -296,12 +301,13 @@ const ProjectDetails = () => {
                 <span className="font-weight-400">A promotional email sent from an airline's company advertising a discount on domestic flights. Designed in Photoshop and coded using MJML.</span>
               </li>
               <li>
-                <a href="https://github.com/muhammadarif2113/airline-promo-email" target="_blank"> <i className="fa fa-github" style={{fontSize: "25px"}} /></a>
+                <a href="https://github.com/muhammadarif2113/airline-promo-email" target="_blank" rel="noopener noreferrer"> <i className="fa fa-github" style={{fontSize: "25px"}} /></a>
               </li>
             </ul>
             <hr />
             <a
               target="_blank"
+              rel="noopener noreferrer"
               href="https://muhammadarif2113.github.io/airline-promo-email/"
               className="waves-effect waves-light btn font-weight-700"
             >
@@ -333,12 +339,13 @@ const ProjectDetails = () => {
               </li>
               
               <li>
-              <a href="https://github.com/muhammadarif2113/transactional-email" target="_blank"> <i className="fa fa-github" style={{fontSize: "25px"}} /></a>
+              <a href="https://github.com/muhammadarif2113/transactional-email" target="_blank" rel="noopener noreferrer"> <i className="fa fa-github" style={{fontSize: "25px"}} /></a>
               </li>
             </ul>
             <hr />
             <a
               target="_blank"
+              rel="noopener noreferrer"
               href="https://muhammadarif2113.github.io/transactional-email"
               className="waves-effect waves-light btn font-weight-700"
             >
@@ -368,12 +375,13 @@ const ProjectDetails = () => {
                 <span className="font-weight-400">A promotional email clone sent from NBAStore. Coded with MJML. </span>
               </li>
               <li>
-              <a href="https://github.com/muhammadarif2113/nbastore-promo-email" target="_blank"> <i className="fa fa-github" style={{fontSize: "25px"}} /></a>
+              <a href="https://github.com/muhammadarif2113/nbastore-promo-email" target="_blank" rel="noopener noreferrer"> <i className="fa fa-github" style={{fontSize: "25px"}} /></a>
               </li>
             </ul>
             <hr />
             <a
               target="_blank"
+              rel="noopener noreferrer"
               href="https://muhammadarif2113.github.io/nbastore-promo-email"
               className="waves-effect waves-light btn font-weight-700"
             >
@@ -409,6 +417,7 @@ const ProjectDetails = () => {
             <hr />
             <a
               target="_blank"
+              rel="noopener noreferrer"
               href="images/projects/suckerz-welcome.html"
               className="waves-effect waves-light btn font-weight-700"
             >
@@ -446,6 +455,7 @@ const ProjectDetails = () => {
             <hr />
             <a
               target="_blank"
+              rel="noopener noreferrer"
               href="images/projects/vegancuts-welcome.html"
               className="waves-effect waves-light btn font-weight-700"
             >
