@@ -17,7 +17,7 @@ const Experience = () => (
         {/* Single Experience Starts */}
         <div className="resume-content">
           <h6>
-            <span className="uppercase">Advertiser - </span><a href="https://www.instagram.com/bluestarparlor/" target="_blank" rel="noopener noreferrer"> Blue Star Parlor</a>
+            <span className="uppercase">Advertiser - </span><a className="uppercase" href="https://www.instagram.com/bluestarparlor/" target="_blank" rel="noopener noreferrer" style={{color: "#DAA520", fontWeight: "bold"}}> Blue Star Parlor</a>
           </h6>
           <span className="date">
             <i className="fa fa-calendar-o" /> April 2024 - June 2024
@@ -32,7 +32,7 @@ const Experience = () => (
         {/* Single Experience Starts */}
         <div className="resume-content">
           <h6>
-            <span className="uppercase">Advertiser - </span> <a href="https://bunnysflowers.org/" target="_blank" rel="noopener noreferrer">Bunny's Flower</a>
+            <span className="uppercase">Advertiser - </span> <a className="uppercase" href="https://bunnysflowers.org/" target="_blank" rel="noopener noreferrer" style={{color: "#DAA520", fontWeight: "bold"}}>Bunny's Flower</a>
           </h6>
           <span className="date">
             <i className="fa fa-calendar-o" /> March 2024 - May 2024
@@ -47,7 +47,7 @@ const Experience = () => (
         {/* Single Experience Starts */}
         <div className="resume-content">
           <h6>
-            <span className="uppercase">E-Commerce Logistics Manager - </span><a href="https://www.pietrastudio.com/" target="_blank" rel="noopener noreferrer">Pietra</a>
+            <span className="uppercase">E-Commerce Logistics Manager - </span><a className="uppercase" href="https://www.pietrastudio.com/" target="_blank" rel="noopener noreferrer" style={{color: "#DAA520", fontWeight: "bold"}}>Pietra</a>
           </h6>
           <span className="date">
             <i className="fa fa-calendar-o" /> March 2022 - May 2023
@@ -75,7 +75,7 @@ const Education = () => (
         {/* Single Education Starts */}
         <div className="resume-content">
           <h6 className="uppercase">
-            <span>COOP Fellowship - </span>Digital Marketing
+            <span>COOP Fellowship - </span> <span style={{color: "#DAA520"}}>Digital Marketing </span>
           </h6>
           <span className="date">
             <i className="fa fa-calendar-o" /> February 2024 - June 2024
@@ -90,7 +90,7 @@ const Education = () => (
         {/* Single Education Starts */}
         <div className="resume-content">
           <h6 className="uppercase">
-            <span>Kepler Academy - </span>Paid Search Extern
+            <span>Kepler Academy - </span> <span style={{color: "#DAA520"}}>Paid Search Extern</span>
           </h6>
           <span className="date">
             <i className="fa fa-calendar-o" /> March 2024 - May 2024
@@ -104,13 +104,13 @@ const Education = () => (
         {/* Single Education Starts */}
         <div className="resume-content">
           <h6 className="uppercase">
-            <span>Computer Information Systems, B.S. - </span>Brooklyn College
+            <span>Computer Information Systems, B.S. - </span><span style={{color: "#DAA520"}}>Brooklyn College </span>
           </h6>
           <span className="date">
             <i className="fa fa-calendar-o" /> June 2021
           </span>
           <p>
-          <ul>
+          {/* <ul>
             <li>
                 Multimedia Programming (HTML, CSS, JavaScript)
               </li>
@@ -132,8 +132,31 @@ const Education = () => (
               <li>
                 Artificial Intelligence (Python)
               </li>
-            </ul>
+            </ul> */}
           </p>
+        </div>
+
+        <div className="resume-content">
+        <h6 className="uppercase">
+            <span>Certifications </span>
+          </h6>
+          <ul>
+            <li>
+              <a href="https://skillshop.exceedlms.com/student/award/BouMqNN4fYEB8s2jaigCUawZ" target="_blank" rel="noopener noreferrer" style={{color: "#DAA520"}}>Google Ads Search Certification</a>
+            </li>
+            <li>
+              <a href="https://skillshop.exceedlms.com/student/award/JK1PzQpX4T9SMW3SowSfnh2p" target="_blank" rel="noopener noreferrer" style={{color: "#DAA520"}}>Google Ads Measurement</a>
+            </li>
+            <li>
+            <a href="https://skillshop.exceedlms.com/student/award/6JZLqxbxrNo9nb9aoNEiNuFt" target="_blank" rel="noopener noreferrer" style={{color: "#DAA520"}}>Google Ads Display Certification</a>
+            </li>
+            <li>
+            <a href="https://www.credly.com/badges/e5a78194-e066-4f64-aef3-25c82faa66ae/public_url" target="_blank" rel="noopener noreferrer" style={{color: "#DAA520"}}>Microsoft Advertising Search</a>
+            </li>
+            <li>
+              <a href="https://app.hubspot.com/academy/achievements/kydrtws4/en/1/muhammad-saim-arif/email-marketing" target="_blank" rel="noopener noreferrer" style={{color: "#DAA520"}}>HubSpot Email Marketing</a>
+            </li>
+          </ul>
         </div>
         {/* Single Education Ends */}
       </div>
@@ -477,14 +500,14 @@ const AboutUs = ({ dark }) => {
         {/* Fun Facts Starts */}
         <div className="container badges" style={{padding: "34px 50px"}}>
           <span style={{fontSize: "25px"}}>"</span>
-          <span style={{fontStyle: "italic", color: "#000000"}}>
+          <span style={{fontStyle: "italic", color: "#FFFFFF", lineHeight: "0"}}>
             Saim's attention to detail and creative approach stood out. 
             His ability to understand our brand and tailor content 
             to resonate with our target audience was impressive. The engaging 
-            and well-crafted creatives captured our message and also improved 
-            cost-per-click and click-through rates.
+            and well-crafted creatives captured our message and improved 
+            performance metrics.
           </span>
-          <span style={{fontSize: "25px"}}>"</span>  
+          <span style={{fontSize: "25px"}}>" </span>  
           <span style={{color: "#DAA520", fontSize: "16px", fontStyle: "normal"}}>- Blue Star Parlor</span>
         </div>
         {/* Fun Facts Ends */}

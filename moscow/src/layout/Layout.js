@@ -38,7 +38,7 @@ const Layout = ({ children }) => {
         <link rel="stylesheet" type="text/css" href="css/styleswitcher.css" />
       </Head>
       <Preloader />
-      <Switcher />
+      {/* <Switcher /> */}
       <div className="wrapper">{children}</div>
     </Fragment>
   );

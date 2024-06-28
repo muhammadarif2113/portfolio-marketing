@@ -50,8 +50,8 @@ const GetInTouch = () => {
         {/* Main Heading Starts */}
         <div className="container page-title center-align">
           <h2 className="center-align">
-            <span data-hover="get">get </span>
-            {""}
+            <span data-hover="get">get</span>
+            {" "}
             <span data-hover="in touch">in touch</span>
           </h2>
         </div>
@@ -68,21 +68,21 @@ const GetInTouch = () => {
             {/* Contact Infos Starts */}
             <div className="col s12 m5 l5 xl4 leftside">
               {/* Contacts Starts */}
-              <h6 className="font-weight-700 uppercase">Phone</h6>
+              {/* <h6 className="font-weight-700 uppercase">Phone</h6>
               <span className="font-weight-400 second-font">
                 <i className="fa fa-phone" /> +34 62 11 84 01
-              </span>
+              </span> */}
               <h6 className="font-weight-700 uppercase">Email</h6>
               <span className="font-weight-400 second-font">
-                <i className="fa fa-envelope" /> you@youwebsite.com
+                <i className="fa fa-envelope" /> saim@saimarif.com
               </span>
-              <h6 className="font-weight-700 uppercase">Skype</h6>
+              {/* <h6 className="font-weight-700 uppercase">Skype</h6>
               <span className="font-weight-400 second-font">
                 <i className="fa fa-skype" /> mark.smith
-              </span>
+              </span> */}
               <h6 className="font-weight-700 uppercase">Address</h6>
               <span className="font-weight-400 second-font">
-                <i className="fa fa-home" /> Moscow, Russia
+                <i className="fa fa-home" /> New York, New York
               </span>
               <br />
               {/* Contacts Ends */}
@@ -90,23 +90,23 @@ const GetInTouch = () => {
               <h6 className="font-weight-700 uppercase">Social Profiles</h6>
               <div className="social">
                 <ul className="list-inline social social-intro center-align p-none">
-                  <li className="facebook">
+                  {/* <li className="facebook">
                     <a href="#">
                       <i className="fa fa-facebook" />
                     </a>
-                  </li>
+                  </li> */}
                   <li className="twitter">
                     <a href="#">
                       <i className="fa fa-twitter" />
                     </a>
                   </li>
-                  <li className="google-plus">
+                  {/* <li className="google-plus">
                     <a href="#">
                       <i className="fa fa-google-plus" />
                     </a>
-                  </li>
+                  </li> */}
                   <li className="linkedin">
-                    <a href="#">
+                    <a href="https://www.linkedin.com/in/m-saim-arif/">
                       <i className="fa fa-linkedin" />
                     </a>
                   </li>
@@ -118,14 +118,14 @@ const GetInTouch = () => {
             {/* Contact Form Starts */}
             <div className="col s12 m7 l7 xl8 rightside">
               <h6 className="uppercase m-none font-weight-700">
-                Feel free to drop me a line
+                Feel free to drop a message!
               </h6>
               <div className="row">
-                <p className="col s12 m12 l12 xl10 second-font">
+                {/* <p className="col s12 m12 l12 xl10 second-font">
                   If you have any suggestion, project or even you want to say
                   Hello.. please fill out the form below and I will reply you
                   shortly.
-                </p>
+                </p> */}
               </div>
               <form className="contactform" onSubmit={(e) => onSubmit(e)}>
                 {/* Name Field Starts */}
@@ -140,7 +140,7 @@ const GetInTouch = () => {
                     className="validate"
                   />
                   <label className="font-weight-400" htmlFor="name">
-                    Your Name
+                    Name
                   </label>
                 </div>
                 {/* Name Field Ends */}
@@ -156,7 +156,7 @@ const GetInTouch = () => {
                     className="validate"
                     required=""
                   />
-                  <label htmlFor="email">Your Email</label>
+                  <label htmlFor="email">Email</label>
                 </div>
                 {/* Email Field Ends */}
                 {/* Comment Textarea Starts */}
@@ -171,7 +171,7 @@ const GetInTouch = () => {
                     required=""
                     defaultValue={""}
                   />
-                  <label htmlFor="comment">Your Comment</label>
+                  <label htmlFor="comment">Message</label>
                 </div>
                 {/* Comment Textarea Ends */}
                 {/* Submit Form Button Starts */}

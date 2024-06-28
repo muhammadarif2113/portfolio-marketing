@@ -21,6 +21,8 @@ const AboutUs = dynamic(() => import("../src/components/AboutUs"), {
 const Index = () => {
   const { nav } = useContext(Context);
   useEffect(() => {
+    document.querySelector("body").classList.add("dark");
+
     document.querySelector("body").classList.remove("blog");
   }, []);
   return (
@@ -46,7 +48,7 @@ const Index = () => {
             </div>
           </div>
         </section>
-        <AboutUs />
+        <AboutUs dark/>
         <Portfolio />
         <GetInTouch />
         <ProjectDetails />
