@@ -80,7 +80,7 @@ const GetInTouch = () => {
               <span className="font-weight-400 second-font">
                 <i className="fa fa-skype" /> mark.smith
               </span> */}
-              <h6 className="font-weight-700 uppercase">Address</h6>
+              <h6 className="font-weight-700 uppercase">Location</h6>
               <span className="font-weight-400 second-font">
                 <i className="fa fa-home" /> New York, New York
               </span>
